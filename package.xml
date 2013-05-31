@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>rosjava_osrf</name>
+  <version>0.0.0</version>
+  <description>
+    Zeroconf and App Manager stuff for Android.
+  </description>
+  <url>http://ros.org/wiki/rosjava_osrf</url>
+  <maintainer email="sarah@osrfoundation.org">Sarah Elliott</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>android_core</build_depend>
+  <build_depend>rosjava_tools</build_depend>
+
+  <run_depend>android_core</run_depend>
+  <run_depend>rosjava_tools</run_depend>
+
+</package>
