@@ -14,4 +14,5 @@
  * the License.
  */
 
-include 'android_app_manager', 'rosjava_zeroconf'
+include 'android_app_manager'
+include 'rosjava_zeroconf'

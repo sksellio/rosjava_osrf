@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_osrf</name>
-  <version>0.0.0</version>
+  <version>0.1.0</version>
   <description>
     Zeroconf and App Manager stuff for Android.
   </description>
@@ -9,11 +9,7 @@
   <maintainer email="sarah@osrfoundation.org">Sarah Elliott</maintainer>
   <license>Apache 2.0</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>android_core</build_depend>
-  <build_depend>rosjava_tools</build_depend>
-
-  <run_depend>android_core</run_depend>
-  <run_depend>rosjava_tools</run_depend>
-
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>rosjava_bootstrap</build_depend>
+    <build_depend>rosjava_build_tools</build_depend>
 </package>
