@@ -29,21 +29,14 @@ buildscript {
 apply plugin: 'catkin'
 
 allprojects {
-
-    repositories {
-        maven {
-            url "https://github.com/talregev/rosjava_mvn_repo/raw/master"
-        }
-    }
-
-  group 'org.ros.rosjava_osrf'
-  version = project.catkin.pkg.version
+    apply from: "https://github.com/talregev/rosjava_mvn_repo/raw/master/maven.gradle"
+    group 'org.ros.rosjava_osrf'
+    version = project.catkin.pkg.version
 }
 
 subprojects {
     apply plugin: 'ros-java'
     apply plugin: 'eclipse'
-
 }
 
 defaultTasks 'install', 'publishMavenJavaPublicationToMavenRepository'

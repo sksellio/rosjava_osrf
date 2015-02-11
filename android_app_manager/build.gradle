@@ -1,3 +1,4 @@
+//noinspection GroovyAssignabilityCheck
 dependencies {
   compile 'ros.rosjava_core:rosjava:[0,)'
 }
