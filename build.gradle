@@ -35,8 +35,7 @@ allprojects {
 }
 
 subprojects {
-    apply plugin: 'ros-java'
-    apply plugin: 'eclipse'
+    apply plugin: 'ros-android'
 }
 
-defaultTasks 'install', 'publishMavenJavaPublicationToMavenRepository'
+defaultTasks  'assembleRelease', 'uploadArchives'
