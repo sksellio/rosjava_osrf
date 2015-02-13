@@ -14,7 +14,7 @@
  * the License.
  */
 
-package ros.android.activity;
+package org.ros.android.activity;
 
 import java.util.ArrayList;
 

@@ -32,7 +32,7 @@
  */
 
 //package org.ros.android.robotapp;
-package ros.android.activity;
+package org.ros.android.activity;
 
 import java.util.Map;
 public class RobotId implements java.io.Serializable {

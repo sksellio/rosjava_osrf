@@ -1,5 +1,5 @@
 //package org.ros.android.robotapp;
-package ros.android.activity;
+package org.ros.android.activity;
 
 import org.ros.namespace.GraphName;
 import org.ros.namespace.NameResolver;

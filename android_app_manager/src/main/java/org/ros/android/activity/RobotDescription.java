@@ -31,7 +31,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package ros.android.activity;
+package org.ros.android.activity;
 
 import java.util.Date;
 
